@@ -1,0 +1,31 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/goldpue/STAND.R3/main/STAND.R3"))()
+
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Bemey99/M2.5/main/Client!."))()
+
+Notification:Notify(
+    {Title = "Executed!", Description = "Hey! its me Ticxyy thanks for using our script (pls dont steal it and sell it)"},
+    {OutlineColor = Color3.fromRGB(255, 255, 255),Time = 5, Type = "option"},    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(295, 85, 89), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Ticxyy new stand v3.2", Description = "Fluxus Support!"},
+    {OutlineColor = Color3.fromRGB(255, 255, 255),Time = 5, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(295, 85, 89)}
+)
+wait(1)
+Notification:Notify(
+    {Title = "unfortunatly all executors are down wt the time of writing this but well test it soon", Description = "FUCK BIZZARD/THUNDER STAND THEY SKIDDED OF US"},
+    {OutlineColor = Color3.fromRGB(255, 255, 255),Time = 5, Type = "default"}
+)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Executed!', 'All');
+wait(1.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Loading...', 'All');
+wait(1.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Loaded!', 'All');
+wait(1.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Successfully Loaded Perma Ban Fixed', 'All');
+wait(1.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Bugs Fixed.', 'All');
+wait(2.4)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Маdе Ву ТісхууІоІz Оn Discorđ', 'All');
